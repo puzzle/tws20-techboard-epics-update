@@ -53,26 +53,36 @@ New Steps:
 
 <dl>
 <dt>kustomize</dt>
-<dd>...</dd>
+<dd>Generates OpenShift objects with kustomize.</dd>
 <dt>openshiftApply</dt>
-<dd>...</dd>
+<dd>Applies OpenShift objects to cluster, <br/>prunes removed/renamed objects.</dd>
 
 ---
 <!-- .slide: class="text-left" -->
 ## Puzzle Jenkins Shared Library
 
 <dt>openshiftDiff</dt>
-<dd>...</dd>
+<dd>Diffs OpenShift objects against cluster.</dd>
 <dt>replaceFromVault</dt>
-<dd>...</dd>
+<dd>Replaces variables in strings with Vault secrets.</dd>
 <dt>withGitCrypt</dt>
-<dd>...</dd>
+<dd>Unlocks repo with git-crypt within scope of step.</dd>
 </dl>
+
+---
+<!-- .slide: class="text-left" -->
+## Example Pipelines
+
+* [pitc-wekan-cicd-pipeline](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-wekan-cicd-pipeline/)
+* [pitc-pipeline-quickstarts-kustomize](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-pipeline-quickstarts-kustomize/)
 
 ---
 <!-- .slide: class="text-left" -->
 ## What's Next
 
-*
-*
+* Review and merge branch
+* Write documentation
+* Steps and examples for Helm and ArgoCD
+* Versioning and promotion
+* Images and library for GitLab
 * [Wekan Board](https://wekan.puzzle.ch/b/NTF72iW8TBzxa7D9Z/technical-board)
