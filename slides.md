@@ -1,5 +1,89 @@
 ---
-title: Techboard Epics Update
+title: Remote Tech Workshop 2020
+---
+
+<!-- .slide: class="master01" -->
+
+Willkommen zum
+
+# Remote Tech Workshop 2020
+
+Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
+
+---
+
+<!-- .slide: class="text-left" -->
+## Programm
+
+<style>
+  .programm table {
+    width: 49%;
+    margin-top: 0;
+  }
+  .programm table td {
+    vertical-align: top;
+    border: 0;
+  }
+</style>
+<div class="programm" style="display: flex">
+<table>
+  <tr>
+    <td><b>09:00</b></td>
+    <td>
+      Begrüssung<br>
+      <small style="color: gray;">Thömu</small>
+    </td>
+  </tr>
+  <tr>
+    <td>09:05</td>
+    <td>
+      Techboard Epics Update<br>
+      <small style="color: gray;">Dani & Stefan</small>
+    </td>
+  </tr>
+    <tr>
+    <td>09:20</td>
+    <td>
+      EBRAINS Knowledge Graph<br>
+      <small style="color: gray;">Oli Schmid, EPFL</small>
+    </td>
+  </tr>
+    <tr>
+    <td>09:50</td>
+    <td>1. Teil Mini Workshops</td>
+  </tr>
+  <tr>
+    <td>12:00</td>
+    <td>Mittag</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><b>13:00</b></td>
+    <td>
+      In 15 Minuten von dev zu prod mit ESTA-Cloud@SBB IT: Die CI/CD Pipeline der SBB&nbsp;IT<br>
+      <small style="color: gray;"> Daniel Marthaler, SBB</small>
+    </td>
+  </tr>
+    <tr>
+    <td>13:30</td>
+    <td>Projektspeeddating</td>
+  </tr>
+    <tr>
+    <td>13:50</td>
+    <td>2. Teil Mini Workshops</td>
+  </tr>
+    <tr>
+    <td>16:40<br>&amp;&nbsp;16:50</td>
+    <td>Präsentation Resultate Mini Workshops</td>
+  </tr>
+  <tr>
+    <td><b>17:00</b></td>
+    <td>Remote-Feierabendbier</td>
+  </tr>
+</table>
+</div>
+
 ---
 
 <!-- .slide: class="master01" -->
