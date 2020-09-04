@@ -186,13 +186,25 @@ New Steps:
 <dd>Generates OpenShift objects with kustomize.</dd>
 <dt>openshiftApply</dt>
 <dd>Applies OpenShift objects to cluster, <br/>prunes removed/renamed objects.</dd>
+</dl>
 
 ---
 <!-- .slide: class="text-left" -->
 ## Puzzle Jenkins Shared Library
 
+<dl>
+<dt>openshiftStartBuild</dt>
+<dd>Starts a new build and waits for its completion, <br>
+aborts the Jenkins job when the builds fails.</dd>
 <dt>openshiftDiff</dt>
 <dd>Diffs OpenShift objects against cluster.</dd>
+</dl>
+
+---
+<!-- .slide: class="text-left" -->
+## Puzzle Jenkins Shared Library
+
+<dl>
 <dt>replaceFromVault</dt>
 <dd>Replaces variables in strings with Vault secrets.</dd>
 <dt>withGitCrypt</dt>
