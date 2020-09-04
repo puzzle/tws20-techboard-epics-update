@@ -98,12 +98,62 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 ---
 
 <!-- .slide: class="text-left" -->
-## Title
+## Wieso Docs?
 
-* Point 1
-* Point 2
+* Umfrage /mid Week (Nov '19)
+* Puzzle Lunch: [Techboard Pain Points](https://wiki.puzzle.ch/Puzzle/PainPoints2020)
+
+
+* Hotspot: Dokumentation
 
 ---
+
+<!-- .slide: class="text-left" -->
+## 🤬 Doku ?!
+
+* Best Practices nicht dokumentiert
+* Dokumentation nicht vorhanden oder outdated
+* Durchmischung Administration/Anwendung
+* Entry Point für technische Dokus fehlt
+* Usability & Suche Wiki
+
+---
+
+<!-- .slide: class="text-left" -->
+## 😍 Doku !!
+
+* Docs-as-code (Git-basiert, Markup, gewohnter Editor)
+* Doku Ownership
+* Definierte Zielgruppe
+    * Trennung von User Guides und Admin Guides
+* Inhalte Einheitliche Strukturiert
+
+---
+
+<!-- .slide: class="text-center" -->
+## ... introducing ...
+
+✨ Puzzle Docs ✨
+
+docs.puzzle.ch
+
+---
+
+<img data-src="puzzle-docs-capture.png" height="420" width="200" />
+
+---
+
+## Puzzle Docs
+
+* Some Pointers
+
+---
+
+<!-- .slide: class="text-left" -->
+## What's Next
+
+* TODO
+
 
 <!-- .slide: class="master02" -->
 # Epic 2: Pipelines
@@ -123,7 +173,7 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 
 * Enables namespace for Jenkins OpenShift Sync
 
-&nbsp; &nbsp; &rArr; Trigger Jenkins pipelines from OpenShift <br/> 
+&nbsp; &nbsp; &rArr; Trigger Jenkins pipelines from OpenShift <br/>
 &nbsp; &nbsp; &rArr; Configure pipelines, credentials & slaves in <br/>
 &nbsp; &nbsp; <span style="visibility: hidden">&rArr;</span> OpenShift
 
