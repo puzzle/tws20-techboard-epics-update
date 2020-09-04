@@ -179,7 +179,7 @@ Documentation: [Puzzle Jenkins Developer Guide](https://wiki.puzzle.ch/Puzzle/Je
 <!-- .slide: class="text-left" -->
 ## Puzzle Jenkins Shared Library
 
-New Steps:
+New Steps, in branch `resource-management` yet:
 
 <dl>
 <dt>kustomize</dt>
