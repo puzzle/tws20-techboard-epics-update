@@ -173,7 +173,7 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 &nbsp; &nbsp; &rArr; Configure pipelines, credentials & slaves in <br/>
 &nbsp; &nbsp; <span style="visibility: hidden">&rArr;</span> OpenShift
 
-Documentation: [Puzzle Jenkins Developer Guide](https://wiki.puzzle.ch/Puzzle/JenkinsDeveloperGuide#OpenShift_Client_Plugin)
+Documentation: [Puzzle Jenkins Developer Guide](https://wiki.puzzle.ch/Puzzle/JenkinsDeveloperGuide#Jenkins_CI_47CD_Project_Operator)
 
 ---
 <!-- .slide: class="text-left" -->
@@ -211,12 +211,15 @@ aborts the Jenkins job when the builds fails.</dd>
 <dd>Unlocks repo with git-crypt within scope of step.</dd>
 </dl>
 
+Documentation: [Jenkins > *Job* > Pipeline Syntax](https://jenkins.puzzle.ch/job/pitc-jenkins/job/build/job/pitc-shared-library-docs/job/resource-management/pipeline-syntax/globals)
+
 ---
+
 <!-- .slide: class="text-left" -->
 ## Example Pipelines
 
 * [pitc-wekan-cicd-pipeline](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-wekan-cicd-pipeline/)
-* [pitc-pipeline-quickstarts-kustomize](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-pipeline-quickstarts-kustomize/)
+* [pitc-java-s2i-kustomize-pipeline-quickstart](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-java-s2i-kustomize-pipeline-quickstart/)
 
 ---
 <!-- .slide: class="text-left" -->
