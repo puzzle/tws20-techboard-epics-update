@@ -102,53 +102,73 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 
 * Umfrage /mid Week (Nov '19)
 * Puzzle Lunch: [Techboard Pain Points](https://wiki.puzzle.ch/Puzzle/PainPoints2020) (Jan '20)
-
-
-* Hotspot: Dokumentation
+  * Hotspot: Dokumentation
 
 ---
 
 <!-- .slide: class="text-left" -->
-## 🤬 Doku ?!
+## 🤬 Doku WTF?!
 
+* Dokumentation nicht vorhanden oder veraltet
 * Best Practices nicht dokumentiert
-* Dokumentation nicht vorhanden oder outdated
-* Durchmischung Administration/Anwendung
-* Entry Point für technische Dokus fehlt
+* Durchmischung Betrieb/Anwendung
+* Einstiegspunkt für technische Dokus fehlt
 * Usability & Suche Wiki
 
 ---
 
 <!-- .slide: class="text-left" -->
-## 😍 Doku !!
+## 😍 Make Doku Great Again!
 
-* Docs-as-code (Git-basiert, Markup, gewohnter Editor)
-* Doku Ownership
-* Definierte Zielgruppe
-    * Trennung von User Guides und Admin Guides
-* Inhalte Einheitliche Strukturiert
+* Docs-as-code
+  * Git-basiert, Markup o.Ä., gewohnter Editor
+* Ownership definiert
+* User Guides und Admin Guides
+  * Zielgruppe im Fokus
+* Einheitliche strukturierte Inhalte
+* Einfach durchsuch- und findbar
 
 ---
 
 <!-- .slide: class="text-center" -->
-## ... introducing: Puzzle Docs
-
-✨ docs.puzzle.ch ✨
-
-![Puzzle Docs](images/puzzle-docs-capture.png)  <!-- .element height="125%" width="125%" -->
+## ... introducing ...
 
 ---
 
+<!-- .slide: class="text-center" -->
+## ✨ Puzzle Docs ✨
+
+![Puzzle Docs](images/puzzle-docs-capture.png)  <!-- .element height="100%" width="100%" -->
+
+---
+
+<!-- .slide: class="text-left" -->
 ## Puzzle Docs
 
-* Some Pointers
+* [docs.puzzle.ch](https://docs.puzzle.ch) (alpha)
+* [Antora](https://antora.org/) (AsciiDoc, Site Generator, Multirepository, mehrere Versionen/Branches)
+* [MeiliSearch](https://www.meilisearch.com/) (Lorenz)
+* primäre Fokus:
+  * Projektübergreifende technische Doku
+  * Guides (Anwender, Administration)
 
 ---
 
 <!-- .slide: class="text-left" -->
 ## What's Next
 
-* TODO
+* Struktur und Inhalte überprüfen
+* Migration bestehende Guides
+* Design & Usability mit UX (Jürgen, Mayra)
+* Erweiterung Tooling
+  * Usage Metrics, Pipeline improvements,  ...
+* Definitive Einführung: Ziel Q4 2020
+
+----
+
+![Puzzle Docs](images/puzzle-docs-start.png)  <!-- .element height="100%" width="100%" -->
+
+---
 
 
 <!-- .slide: class="master02" -->
