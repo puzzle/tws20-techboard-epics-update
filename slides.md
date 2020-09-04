@@ -139,7 +139,7 @@ docs.puzzle.ch
 
 ---
 
-<img data-src="puzzle-docs-capture.png" height="420" width="200" />
+<img src="images/puzzle-docs-capture.png"/>
 
 ---
 
