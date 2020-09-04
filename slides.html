@@ -164,7 +164,7 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 &nbsp; &nbsp; &rArr; Configure pipelines, credentials & slaves in <br/>
 &nbsp; &nbsp; <span style="visibility: hidden">&rArr;</span> OpenShift
 
-Documentation: [Puzzle Jenkins Developer Guide](https://wiki.puzzle.ch/Puzzle/JenkinsDeveloperGuide#OpenShift_Client_Plugin)
+Documentation: [Puzzle Jenkins Developer Guide](https://wiki.puzzle.ch/Puzzle/JenkinsDeveloperGuide#Jenkins_CI_47CD_Project_Operator)
 </script></section><section  data-markdown><script type="text/template"><!-- .slide: class="text-left" -->
 ## Puzzle Jenkins Shared Library
 
@@ -175,21 +175,34 @@ New Steps:
 <dd>Generates OpenShift objects with kustomize.</dd>
 <dt>openshiftApply</dt>
 <dd>Applies OpenShift objects to cluster, <br/>prunes removed/renamed objects.</dd>
+</dl>
 </script></section><section  data-markdown><script type="text/template"><!-- .slide: class="text-left" -->
 ## Puzzle Jenkins Shared Library
 
+<dl>
+<dt>openshiftStartBuild</dt>
+<dd>Starts a new build and waits for its completion, <br>
+aborts the Jenkins job when the builds fails.</dd>
 <dt>openshiftDiff</dt>
 <dd>Diffs OpenShift objects against cluster.</dd>
+</dl>
+</script></section><section  data-markdown><script type="text/template"><!-- .slide: class="text-left" -->
+## Puzzle Jenkins Shared Library
+
+<dl>
 <dt>replaceFromVault</dt>
 <dd>Replaces variables in strings with Vault secrets.</dd>
 <dt>withGitCrypt</dt>
 <dd>Unlocks repo with git-crypt within scope of step.</dd>
 </dl>
-</script></section><section  data-markdown><script type="text/template"><!-- .slide: class="text-left" -->
+
+Documentation: [Jenkins > *Job* > Pipeline Syntax](https://jenkins.puzzle.ch/job/pitc-jenkins/job/build/job/pitc-shared-library-docs/job/resource-management/pipeline-syntax/globals)
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: class="text-left" -->
 ## Example Pipelines
 
 * [pitc-wekan-cicd-pipeline](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-wekan-cicd-pipeline/)
-* [pitc-pipeline-quickstarts-kustomize](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-pipeline-quickstarts-kustomize/)
+* [pitc-java-s2i-kustomize-pipeline-quickstart](https://jenkins.puzzle.ch/view/pitc-tb-pipelines/job/pitc-java-s2i-kustomize-pipeline-quickstart/)
 </script></section><section  data-markdown><script type="text/template"><!-- .slide: class="text-left" -->
 ## What's Next
 
