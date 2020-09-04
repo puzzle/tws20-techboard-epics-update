@@ -101,7 +101,7 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 ## Wieso Docs?
 
 * Umfrage /mid Week (Nov '19)
-* Puzzle Lunch: [Techboard Pain Points](https://wiki.puzzle.ch/Puzzle/PainPoints2020)
+* Puzzle Lunch: [Techboard Pain Points](https://wiki.puzzle.ch/Puzzle/PainPoints2020) (Jan '20)
 
 
 * Hotspot: Dokumentation
@@ -131,15 +131,11 @@ Rocket.Chat: [#tws20](https://chat.puzzle.ch/channel/tws20)
 ---
 
 <!-- .slide: class="text-center" -->
-## ... introducing ...
+## ... introducing: Puzzle Docs
 
-✨ Puzzle Docs ✨
+✨ docs.puzzle.ch ✨
 
-docs.puzzle.ch
-
----
-
-<img src="images/puzzle-docs-capture.png"/>
+![Puzzle Docs](images/puzzle-docs-capture.png)  <!-- .element height="125%" width="125%" -->
 
 ---
 
